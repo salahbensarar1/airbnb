@@ -9,5 +9,23 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+} 
+
+.Navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
 }
+.logo-air
+{
+  height: 50px;
+  width: 40px;
+
+}
+.list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
