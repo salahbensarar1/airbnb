@@ -37,13 +37,20 @@ code {
 }
 
 .Hero {
+  display: grid;
   padding: 20px;
+  text-align: center;
+  align-items: center;
+  place-items: center;
 }
 
 .Hero>img {
+  display: flex;
   max-width: 600px;
-  align-self: center;
+  
+
 }
+
 
 .Hero-header {
   padding: 10px;
