@@ -37,6 +37,7 @@ code {
 }
 
 .Hero {
+<<<<<<< HEAD
   display: grid;
   padding: 20px;
   text-align: center;
@@ -49,11 +50,27 @@ code {
   max-width: 600px;
   
 
+=======
+        text-align: center;
+          /* height: 100vh; */
+          display: grid;
+          place-items: center;
+ 
+  
+}
+
+.Hero>img {
+  max-width: 100%;
+    height: auto;
+    display: grid;
+  
+  
+>>>>>>> origin/master
 }
 
 
 .Hero-header {
-  padding: 10px;
+  
   font-family: "Poppins" Arial, Helvetica, sans-serif;
   font-size: 42px;
   font-weight: 600;
@@ -61,9 +78,11 @@ code {
   font-weight: 700;
   letter-spacing: 4px;
 
+
 }
 .hero--text {
-  margin-top: 0;
+  margin-top: -20px;
+  margin-bottom: 60px;
   
 }
 .bold{
