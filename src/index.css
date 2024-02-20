@@ -9,23 +9,82 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-} 
+}
 
-.Navbar{
+.Navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
-}
-.logo-air
-{
-  height: 50px;
-  width: 40px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 
 }
+
+.logo-air {
+  height: 65px;
+  width: 80px;
+  padding: 10px;
+
+}
+
 .list {
   display: flex;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   gap: 20px;
   list-style: none;
+  padding: 10px;
+  font-weight: 400;
+  cursor:pointer;
 }
 
+.Hero {
+  padding: 20px;
+}
+
+.Hero>img {
+  max-width: 600px;
+  align-self: center;
+}
+
+.Hero-header {
+  padding: 10px;
+  font-family: "Poppins" Arial, Helvetica, sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 40px;
+  font-weight: 700;
+  letter-spacing: 4px;
+
+}
+.hero--text {
+  margin-top: 0;
+  
+}
+.bold{
+    font-weight: bold;
+}
+.gray{
+  color: gray;
+  padding-left: 5px;
+}
+.Card{
+  padding: 1%;
+  padding-left: 10px;
+}
+.Card--star{
+  height: 12px;
+  padding-right: 5px;
+  
+}
+.Image{
+      width: 250px;
+      height: 330px;
+      border-radius: 15px;
+}
+.Card-status{
+  display: flex;
+  align-items: center;
+  
+}
+.CardContainer{
+  display: flex;
+}

@@ -1,11 +1,11 @@
 import React from "react";
-import logo_Botom_Air from "./assets/logo_Botom_Air.png"
+import Airbnb from "./assets/Airbnb.jpeg"
 // import logo_Botom_Air from "./assets/logo_Botom_Air.png";
 function Navbar(){
     return(
         
         <nav className="Navbar">
-            <img src = {logo_Botom_Air} className="logo-air"/>
+            <img src = {Airbnb} className="logo-air" alt="Airbnb home"/>
             <ol className="list">
                 <li>
                     Contact
