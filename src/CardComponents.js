@@ -13,6 +13,7 @@ const cardData = [
     { id: 4, image: Surfing, rating: 4.8, reviews: '(2) •', location: 'USA', titile: 'Group Surfing ', price: 50 } ,
     { id: 5, image: MountianView, rating: 4.8, reviews: '(2) •', location: 'USA', titile: ' Mountain Hiking', price: 50 } ,
     { id: 6, image: MountianView, rating: 4.8, reviews: '(2) •', location: 'USA', titile: ' Mountain Hiking', price: 50 },
+    { id: 7, image: MountianView, rating: 4.8, reviews: '(2) •', location: 'USA', titile: ' Mountain Hiking', price: 50 },
 ];
 export default function CardContainer() {
     return (
